@@ -10,9 +10,9 @@ public class Main
         {
           arr[i]=sc.nextInt();
         }
-      System.out.println(minEdit(arr));
+      System.out.println(MissingPositive(arr));
     }
-    public static int minEdit(int arr[])
+    public static int MissingPositive(int arr[])
     {
       HashSet<Integer> set = new HashSet<>();
       int n=arr.length;
